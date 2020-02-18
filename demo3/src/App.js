@@ -27,6 +27,7 @@ const reducer = (state, action) => {
 
 function App() {
 
+  console.log('App is rendered')
   // 注意这里是 useReducer，不是 useContext
   const [state, dispatch] = useReducer(reducer, store)
 
