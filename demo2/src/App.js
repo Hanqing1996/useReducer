@@ -58,7 +58,7 @@ function User() {
 
   return (
     <div>
-      <h1>个人信息:</h1>
+      <h1>个人信息:hhhh</h1>
       <div>name:{state.user ? state.user.name : ''}</div>
     </div>
   )
